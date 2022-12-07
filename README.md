@@ -1,6 +1,6 @@
-# Full-Metal Alchemist Maps
+# Fullmetal Alchemist Maps
 
-A Webapp built to provide a clear visual for the various journeys characters take in the Full-Metal Alchemist: Brotherhood saga.
+A Webapp built to provide a clear visual for the various journeys characters take in the Fullmetal Alchemist: Brotherhood saga.
 
 ---
 
