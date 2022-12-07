@@ -307,7 +307,7 @@ export const DATA: DataBundle = {
       title: 'East City',
       coordinates: [670, 2142],
       type: 'city',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/e/e4/Eastcommand_day.png',
       appearances: {
         [InstallmentIndex.part1 + 1]: [
           4, 5, 6, 7, 9, 10, 13
@@ -319,15 +319,15 @@ export const DATA: DataBundle = {
           46
         ].map(i => (part4[part4.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `East City is a city in the eastern region of Amestris, which serves as the military command base for the area. For most of the series' first arc, East City is where Colonel Roy Mustang and his subordinates are stationed as well as the point where Edward Elric must make his official reports.`,
+      wikiLink: 'https://fma.fandom.com/wiki/East_City',
       confirmed: true
     },
     {
       title: 'Resembool',
       coordinates: [398, 2118],
       type: 'town',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/9/94/Rockbells-house.png',
       appearances: {
         [InstallmentIndex.part1 + 1]: [
           2, 6, 9, 12,
@@ -345,15 +345,15 @@ export const DATA: DataBundle = {
           61, 63, 64
         ].map(i => (part5[part5.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Resembool is a rural town in the southeastern region of Amestris on the banks of the Rain River. Though small and relatively isolated, Resembool is well known in the region as a sheep-farming town and chiefly exports wool to be used in the manufacture of military uniforms. As such, the town had begun to grow in size due to its various successes, but in 1907, during the Ishval Civil War, Ishvalan terrorists attacked Resembool with explosives due to its military connections and reportedly destroyed everything for several blocks surrounding the train station.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Resembool',
       confirmed: true
     },
     {
       title: 'Rush Valley',
       coordinates: [645, 1682.5],
       type: 'town',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/5/52/RushValley.jpg',
       appearances: {
         [InstallmentIndex.part1 + 1]: [
           11,
@@ -365,15 +365,15 @@ export const DATA: DataBundle = {
           33, 36
         ].map(i => (part3[part3.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Rush Valley is a city in southern Amestris, just north of Dublith. Due to its rapid growth in recent years as the center of Automail production, it is commonly known as "The Boomtown of the Broken-Down". The multitude of automail engineers in Rush Valley cheerfully celebrate their craft and walk the streets in droves, holding automail-related competitions and pushing their wares on unsuspecting passersby. As a result, it becomes a bit of a hassle to walk through the city with automail, as the vendors will go to great lengths to either sell upgrades or closely scrutinize whatever appendages happen to be prosthetic.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Rush_Valley',
       confirmed: true
     },
     {
       title: 'Dublith',
       coordinates: [510, 1693.5],
       type: 'town',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/6/65/Dublith.png',
       appearances: {
         [InstallmentIndex.part1 + 1]: [
           12, 13,
@@ -385,8 +385,8 @@ export const DATA: DataBundle = {
           43, 45
         ].map(i => (part4[part4.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Dublith is the town where Izumi Curtis and her husband, Sig Curtis, live and work. It is located in the center of the southern region of Amestris and like most of the south, boasts relatively high temperatures. According to Izumi, Dublith's main tourist attraction is Kauroy Lake, in the middle of which is Yock Island, the place where Edward and Alphonse learned the meaning behind the alchemical concept "One is all, All is one" after a month of survival training.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Dublith',
       confirmed: true
     },
     {
@@ -403,7 +403,7 @@ export const DATA: DataBundle = {
       title: 'Xerxes',
       coordinates: [780, 3348],
       type: 'point of interest',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/6/6c/Ruins.png',
       appearances: {
         [InstallmentIndex.part2 + 1]: [
           18
@@ -412,29 +412,29 @@ export const DATA: DataBundle = {
           40
         ].map(i => (part4[part4.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Xerxes, was an ancient country that existed in the Great Desert to the east of Amestris four hundred years before the start of the series. Despite having had a remarkably advanced society for their era, the entire population of Xerxes mysteriously vanished, and was left behind only in the fragmented legends of neighboring countries.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Xerxes',
       confirmed: true
     },
     {
       title: 'Nameless Village',
       coordinates: [477, 2114.5],
       type: 'town',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/d/db/Nameless-village.png',
       appearances: {
         [InstallmentIndex.part2 + 1]: [
           21
         ].map(i => (part2[part2.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `The Nameless Village is a village in the Eastern region of Amestris located somewhere between East City and Resembool. The train station placards are depicted as blank and though included on a map of the country in Perfect Guidebook 3, the town is labeled simply "The Town with No Name".`,
+      wikiLink: 'https://fma.fandom.com/wiki/Nameless_Village',
       confirmed: true
     },
     {
       title: 'Ishval',
       coordinates: [307, 2282],
       type: 'region',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/f/f6/Ishval-people.png',
       appearances: {
         [InstallmentIndex.part2 + 1]: [
           22, 25
@@ -446,15 +446,15 @@ export const DATA: DataBundle = {
           54
         ].map(i => (part5[part5.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Ishval is a region of Southeastern Amestris on the border of the Eastern Desert. Presumably, once its own nation, owing to the vastly different cultural practices of Ishval's people and the general populace of greater Amestris as a whole, Ishval was likely absorbed as a part of the country's expansionist policies. However, the region remained a point of contention and was ultimately razed as a result of the Ishval Civil War.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Ishval',
       confirmed: true
     },
     {
       title: 'North City',
       coordinates: [1399, 1682],
       type: 'city',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/2/2d/North-city0.png',
       appearances: {
         [InstallmentIndex.part3 + 1]: [
           33, 35, 36
@@ -463,15 +463,15 @@ export const DATA: DataBundle = {
           44, 45,
         ].map(i => (part4[part4.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `North City is a city in the Northern region of Amestris and serves as the State Military command center for the area. Located to the south of the Briggs Mountain Range, North City is a picturesque town blanketed in snow for much of the year, belying the fact that the sinister dealings of Central Command have taken deep roots there.`,
+      wikiLink: 'https://fma.fandom.com/wiki/North_City',
       confirmed: true
     },
     {
       title: 'Fort Briggs',
       coordinates: [1602, 1710],
       type: 'point of interest',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/c/c6/Fort.png',
       appearances: {
         [InstallmentIndex.part3 + 1]: [
           33, 34, 35, 36, 37, 38
@@ -480,15 +480,15 @@ export const DATA: DataBundle = {
           42, 43, 45
         ].map(i => (part4[part4.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Fort Briggs is an Amestrian Military installation that lies on the border between the countries of Amestris and Drachma.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Fort_Briggs',
       confirmed: true
     },
     {
       title: 'Baschool',
       coordinates: [1620.5, 1985],
       type: 'town',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/3/31/Episode_38_-_13.jpg',
       appearances: {
         [InstallmentIndex.part3 + 1]: [
           36, 38, 39
@@ -497,63 +497,54 @@ export const DATA: DataBundle = {
           40, 41, 42
         ].map(i => (part4[part4.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Baschool is an abandoned mining town in the northern area of Amestris, east of Fort Briggs. It is in this town that Solf J. Kimblee's team—which includes the Elric brothers, Darius, Heinkel, Zampano, Jerso, Winry Rockbell and a platoon of Briggs soldiers led by Major Miles—begins its north area search for Scar.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Baschool',
       confirmed: false
     },
     {
       title: 'Asbec',
       coordinates: [1700, 1931],
       type: 'town',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/b/b9/Asbec.png',
       appearances: {
         [InstallmentIndex.part4 + 1]: [
           41, 42, 43
         ].map(i => (part4[part4.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Asbec is a town in northern Amestris, near the Briggs mountain range. A nearby slum is one of the many havens for Ishvalan refugees and is home to a sizeable Ishvalan community. When Winry Rockbell's party is forced to hide from Solf J. Kimblee in the North Area, they use Asbec as their place of refuge.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Asbec',
       confirmed: false
     },
     {
       title: 'Youswell',
       coordinates: [879, 2633],
       type: 'town',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/c/c1/Youswell.png',
       appearances: {
         [InstallmentIndex.part4 + 1]: [
           45
         ].map(i => (part4[part4.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Youswell is a coal mining town in Eastern Amestrian frontier and the nearest inhabited area to the desert border. For some time, the land upon which the town and mines are built belongs to Lieutenant Yoki, who exploits the townspeople by frequently raising taxes while simultaneously lowering wages in order to line his own pockets.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Youswell',
       confirmed: true
     },
     {
       title: 'Kanama',
       coordinates: [926, 1767],
       type: 'town',
-      image: '',
+      image: 'https://static.wikia.nocookie.net/fma/images/4/4e/Kanama.png',
       appearances: {
         [InstallmentIndex.part4 + 1]: [
           47, 48, 49, 50, 51, 52
         ].map(i => (part4[part4.findIndex(c => (c.chapter === i))])),
       },
-      description: ``,
-      wikiLink: '',
+      description: `Kanama is a small slum on the outskirts of Central City. Edward's party first encounters and battles the Homunculus Pride along with Gluttony in the dense forest outside of the slum. During the battle, Edward knocked out power to the village in order to keep Pride's shadow at bay, causing grief for the residents.`,
+      wikiLink: 'https://fma.fandom.com/wiki/Kanama',
       confirmed: false
     },
   ],
   paths: [
-    // {
-    //   character: characters[CharacterIndex.Alphonse],
-    //   installment: installments[InstallmentIndex.part1],
-    //   chapter: part1[part1.findIndex(c => (c.chapter === 2))],
-    //   confirmed: true,
-    //   coordinates: [
-        
-    //   ],
-    // },
     {
       character: characters[CharacterIndex.Edward],
       installment: installments[InstallmentIndex.part1],
