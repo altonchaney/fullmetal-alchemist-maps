@@ -1,6 +1,6 @@
 
 import { Map, Chapter, Character, Installment, Series, MediaType, DataBundle } from 'character-journey-map/models';
-import map from '../assets/MAP.png';
+import map from '../assets/MAP.webp';
 
 const mapData: Map = {
   image: map,
