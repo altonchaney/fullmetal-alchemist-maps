@@ -249,7 +249,7 @@ export const seriesData: Series = {
   stub: 'fullmetalAlchemist',
   image: 'https://static.wikia.nocookie.net/starwars/images/c/c8/SW_franchise_mural_OT.jpg',
   timeframe: '1913 - 1915',
-  description: `The Galactic Civil War, also referred to as the revolution or the rebellion, was a galactic power struggle in which the Alliance to Restore the Republic waged a rebellion against the ruling Galactic Empire in an attempt to restore democratic rule to the galaxy.`,
+  description: `Fullmetal Alchemist takes place in an alternate Edwardian Era-themed history, in the fictional country of Amestris. In the world, alchemy is one of the most-practiced sciences; Alchemists who work for the government are known as State Alchemist, and automatically are given the rank of Major in the military.`,
   color: 'rgb(139,53,29)',
   backgroundColor: 'rgb(216,192,155)',
   installments: installments,
@@ -422,13 +422,16 @@ export const DATA: DataBundle = {
       type: 'town',
       image: 'https://static.wikia.nocookie.net/fma/images/d/db/Nameless-village.png',
       appearances: {
+        [InstallmentIndex.part1 + 1]: [
+          6
+        ].map(i => (part1[part1.findIndex(c => (c.chapter === i))])),
         [InstallmentIndex.part2 + 1]: [
           21
         ].map(i => (part2[part2.findIndex(c => (c.chapter === i))])),
       },
       description: `The Nameless Village is a village in the Eastern region of Amestris located somewhere between East City and Resembool. The train station placards are depicted as blank and though included on a map of the country in Perfect Guidebook 3, the town is labeled simply "The Town with No Name".`,
       wikiLink: 'https://fma.fandom.com/wiki/Nameless_Village',
-      confirmed: true
+      confirmed: false
     },
     {
       title: 'Ishval',
